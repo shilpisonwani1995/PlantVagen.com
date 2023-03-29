@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+nav img {
+    width: 40px;
+    height: 40px;
+}
+#head-right{
+    margin-top: 5px;
+}
+#head-right>div{
+    display: inline-block;
+    text-align: center;
+    padding-right: 20px;
+}
+#head-right button{
+    text-align: center;
+    background-color: #aad236;
+    border-radius: 4px;
+    padding: 8px 30px 8px 30px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 12px;
+    border: none;
+    margin-right: 20px;
+}
+.pages {
+    display: none;
+}
+#demo:hover + .pages{
+    display: block;
+    color: black;
+}
+#block:hover + .pages{
+    display: block;
+    color: black;
+}
+
+
+#section-1 {
+    background: url(./landing-background.png);
+    height: 100vh;
+}
+#text {
+    position: relative;
+    text-align: center;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 300px;
+}
+#text h1 {
+    width: 100%;
+    font-size: 53px;
+    letter-spacing: 8.8px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+#text p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    color: #8b8b99;
+    margin-top: 50px;
+}
+/*section-2*/
+#section-2 {
+    display: flex;
+}
+.card {
+    width: 25%;
+    text-align: center;
+    height: 500px;
+    padding-top: 150px 30px 10px 30px;
+    color: #fff;
+}
+#first {
+    background-color: #5acda6;
+}
+#second {
+    background-color: #91ac41;
+}
+#third {
+    background-color: #e4b476;
+}
+#fourth {
+    background-color: #f69dad;
+}
+.card i{
+    font-size: 96px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.card h1 {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.card p {
+    font-size: 16px;
+}
+.card:hover {
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+
+/* section-3 */
+#section-3 {
+    background-color: #f7eee2;
+    padding-bottom: 100px;
+}
+.head-section {
+    text-align: center;
+    padding: 100px 0px;
+}
+.heading {
+    font-size: 22px;
+    color: #aad236;
+    font-weight: 500;
+    font-family: 'caveat',cursive;
+}
+.head-section h1 {
+    font-size: 30px;
+    font-weight: 900;
+}
+.para {
+    font-size: 16px;
+    font-weight: 600;
+    color: #8b8b99;
+    letter-spacing: 1px;
+}
+#container {
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+#container div {
+    text-align: center;
+    width: 25%;
+}
+#container div i{
+    font-size: 60px;
+    background-color: #e3b375;
+    color: #fff;
+    padding: 50px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+#container div h1 {
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+#container div p {
+    font-size: 16px;
+    color: #8b8b99;
+    font-weight: 600;
+}
+
+/* section-4 */
+#section-4 {
+    padding: 70px 0px;
+}
+#author-container {
+    display: flex;
+    margin: auto;
+    width: 70%;
+}
+.author-card {
+    width: 33.3%;
+    background-color: #f5f6fb;
+    padding: 30px;
+    border-radius: 10%;
+    border-top-right-radius: 0;
+    margin-right: 20px;
+    text-align: center;
+}
+.imgs {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.para1{
+   font-size: 14px;
+   color: #8b8b99;
+   letter-spacing: 0.5px;
+   font-style: italic;
+   margin-bottom: 10px;
+   font-weight: 500;  
+} 
+.tittle {
+    font-style: italic;
+    font-size: 14px;
+}
+.author-card h2{
+    font-size: 16px;
+    font-weight: bolder
+}
+.author-card:hover{
+    box-shadow: rgba(128, 128, 128, 0.4) 2px 2px 8px;
+}
+
+/* section-5 */
+#section-5 {
+    display: flex;
+    height: 700px;
+    width: 100%;
+}
+#left {
+    width: 70%;
+}
+img{
+    width: 100%;
+}
+#right{
+    width: 30%;
+    background: url(./form2.png);
+}
+#right div{
+    margin: 0 auto;
+    padding: 120px 0px;
+    width: 60%;
+}
+#right h1{
+    font-size: 42px;
+    font-weight: 600;
+}
+#right p {
+    font-size: 16px;
+    color: #8b8b99;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+#right input{
+    font-size: 16px;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 40px;
+    outline: none;
+}
+#right button {
+    padding: 15px 35px;
+    color: #fff;
+    background-color: rgb(246, 157,173);
+    border: none;
+    font-weight: 600;
+}
+#right button:hover {
+    background-color: transparent;
+    color: rgb(246, 157,173);
+    border: 1px solid rgb(246, 157,173);
+}
+
+/* section-6 */
+#section-6 {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: rgb(246, 252, 250);
+}
+#sec6-container {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 80px;
+}
+.sec6-card {
+    width: 25%;
+    padding: 30px;
+    text-align: center;
+}
+.sec6-card h1 {
+    font-size: 44px;
+    font-weight: 600;
+}
+.sec6-card p {
+    font-size: 14px;
+    color: rgba(6, 204, 138, 0.898);
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 0.5;
+    
+}
+
+/*  section-7*/
+#section-7 {
+    width: 100%;
+}
+#video-heading {
+    text-align: center;
+    padding: 50px;
+}
+#video-heading h1 {
+    padding: 50px;
+    font: 40px;
+    color: rgb(139, 139, 153);
+}
+hr {
+    width: 100px;
+    margin: 0 auto;
+    border: 1px solid orangered;
+    opacity: 0.5;
+}
+#video-sec {
+    width: 100%;
+    padding: 30px 0px;
+}
+#video-sec iframe {
+    width: 60%;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+/* section-08 */
+#section-8 {
+    padding: 100px 0px;
+}
+#sec8-container {
+    display: flex;
+    justify-content: space-around;
+}
+#left-sec,#right-sec {
+    width: 32%;
+}
+#left-sec h1,#right-sec h1 {
+    font-size: 38px;
+    font-weight: 600;
+}
+.left-sub {
+    width: 60%;
+    font-weight: 600;
+}
+.sec8-para {
+    font-size: 16px;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+#left-sec div {
+    margin-bottom: 30px;
+}
+#right-sec p {
+    margin-bottom: 20px;
+}
+#right-sec input,textarea {
+    width: 100%;
+    padding: 21px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #8b8b99;
+}
+form{
+    width: 80%;
+}
+#right-sec button {
+    padding: 13px 40px;
+    background-color: #aad236;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+#right-sec button:hover {
+    background-color: white;
+    color: #aad236;
+    border: 1px solid #aad236;
+}
+footer {
+    height: auto;
+    background-color: #232323;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+
+@media screen and (max-width: 480px){
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    nav #head-right div{
+        display: none;
+    }
+    #text-on-img h1{
+        font-size: 28px;
+    }
+    #text-on-img p{
+        font-size: 14px;
+    }
+    #section-1 #text{
+        padding-top: 100px;
+        width: 100%;
+    }
+    
+
+    
+    /* section-2 */
+
+    #section-2 {
+        display: block;
+    }
+    .card {
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+    /* section-3*/
+    #container{
+        display: block;
+    }
+    #container div {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    /* section-4 */
+    #section-4 {
+        padding-top: 50px 0px;
+    }
+    #author-container {
+        display: block;
+        margin: 11px;
+    }
+    .author-card {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    /* section-5 */
+    #section-5 {
+    display: block;
+}
+#left,#right {
+    width: 100%;
+}
+#right div{
+    width: 90%;
+}
+
+/* section-6*/
+#sec6-container {
+    display: block;
+    padding: 0;
+}
+.sec6-card {
+    width: 100%;
+    padding: 10px;
+}
+
+/* section-7 */
+#video-sec iframe {
+    width: 100%;
+    height: 200px;
+}
+#video-heading h1 {
+    padding: 3opx;
+}
+
+
+    /* section-8 */
+    #sec8-container {
+        display: block;
+    }
+    #left-sec,#right-sec {
+        width: 100%;
+        padding-left: 20px;
+    }
+    #left-sec h1,#right-sec h1 {
+        font-size: 36px;
+    }
+    .left-sub{
+        width: 100%;
+    }
+
+}
